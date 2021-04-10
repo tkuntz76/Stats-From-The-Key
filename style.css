@@ -1,0 +1,67 @@
+
+
+#allTeams{
+    margin-left: 1%;
+}
+
+/* #content{
+    background-color: red;
+} */
+
+text {
+    font-family: 'Train One', cursive;
+    color: rgb(255, 255, 255);
+}
+.jumbotron {
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: rgb(143, 21, 21);
+}
+
+.jumbotron img {
+    margin-bottom:1em;
+    border-radius: 8%;
+    width: 300px;
+    height: 150px;
+    margin-right: 1%;
+}
+.jumbotron input {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    width: 300px;
+}
+
+
+#todayScores{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    flex-direction: row;
+
+}
+
+#teamScores{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    flex-direction: row;  
+}
+
+
+.scoreCards {
+    display: grid;
+    color: white;
+    background-color: rgba(0, 102, 255, 0.836);
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row;
+    margin:auto;
+    border-radius: 10px;
+    width:auto;
+}
+
+
+.scoreUpdateCard {
+    color: white;
+    background-color: blue;    
+}
